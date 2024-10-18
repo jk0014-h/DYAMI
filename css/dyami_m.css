@@ -1,0 +1,109 @@
+@charset "utf-8";
+@media (max-width: 700px) {
+  body{
+    display: block;
+   
+     margin: 0 auto; /* 가로 중앙 정렬 */
+  }
+  header ul{
+    display: none;
+  }
+  header .set{
+    display: block;
+  }
+  .baner{
+    width: 100%;
+    height: auto;
+  }
+  .baner img{
+    overflow: hidden;
+  }
+
+.body_1{
+  display: flex;
+  margin: auto;
+}
+.body_1 nav{
+
+  padding: 0;
+  display: block;
+}
+.body_1 div{
+  margin: 1.2rem 3rem;
+}
+.body_1 nav{
+  margin-top: 1.2rem;
+}
+.body_1 nav div{
+  margin-bottom: 1.6rem;
+}
+nav::after{display: none;}
+nav::before{display: none;}
+
+.body_2 .img_box{
+  display: block;
+}
+
+
+.body_3 .img_list{
+  display: block;
+  margin:  0 auto;
+}
+.body_3 .img_list div .img_box{
+  width: 100%;
+  margin: 0;
+}
+
+.body_4 nav .title{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.body_4 nav .title_con{
+  width: 100%;
+}
+.body_5 nav{
+  display: block;
+ justify-content: center;
+}
+.body_5 nav .img{
+  overflow: hidden;
+}
+.body_5 nav .img_1{
+  width: 100%;
+}
+.body_5 nav .img_2, .img_3, .img_4{
+  display: none;
+}
+
+
+.add{
+  padding-top: 4rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.add .map{
+  display: block;
+  padding: 7rem;
+}
+
+.add ul li ul{
+  display: block;
+}
+.add ul li{
+  text-align: left;
+}
+.body_6 h1{
+  font-size: 2rem;
+}
+.footer_a{
+  display: block;
+}
+.footer_a .footer_list{
+  display: block;
+}
+
+.footer_b{
+  font-weight: bold;
+  line-height: 2rem;
+}
+}
